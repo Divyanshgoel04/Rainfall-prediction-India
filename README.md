@@ -8,8 +8,6 @@ A machine learning web app that predicts whether it will rain today in major Ind
 
 ## What this project is about
 
-I started with a Coursera rainfall prediction course that used Australian weather data. After finishing it, I thought — why not make it actually relevant to India? So I swapped the dataset, rewrote the feature engineering for Indian seasons, trained multiple models, and deployed it as a live web app.
-
 The app takes in weather conditions like temperature, humidity, wind speed, and air quality for cities like Mumbai, Delhi, Kolkata, Chennai, and Bengaluru — and predicts whether it will rain or not, along with a confidence score.
 
 ---
@@ -68,7 +66,7 @@ Unlike the original Australian project which used Southern Hemisphere seasons, t
 
 ## Dataset
 
-**Indian Weather Repository** — daily weather snapshots across 550+ Indian cities  
+**Indian Weather** — daily weather snapshots across 550+ Indian cities  
 Source: [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/indian-weather-repository-daily-snapshot)  
 Filtered to 5 major cities: Mumbai, Delhi, Kolkata, Chennai, Bengaluru
 
@@ -93,7 +91,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Make sure `IndianWeatherRepository_small.csv` is in the same folder as `app.py`.
+Make sure `IndianWeather.csv` is in the same folder as `app.py`.
 
 ---
 
@@ -109,4 +107,3 @@ Make sure `IndianWeatherRepository_small.csv` is in the same folder as `app.py`.
 ## About
 
 Built by **Divyansh Goel** — Computer Engineering undergrad at Thapar Institute of Engineering & Technology  
-This started as a Coursera practice project and grew into a full end-to-end ML deployment.
