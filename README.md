@@ -95,15 +95,6 @@ Make sure `IndianWeather.csv` is in the same folder as `app.py`.
 
 ---
 
-## What I'd add next
-
-- XGBoost model comparison
-- More cities across India
-- A map view showing rain probability by region
-- Integration with live weather API so you don't have to enter values manually
-
----
-
 ## About
 
 Built by **Divyansh Goel** — Computer Engineering undergrad at Thapar Institute of Engineering & Technology  
